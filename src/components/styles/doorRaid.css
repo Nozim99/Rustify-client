@@ -1,0 +1,63 @@
+.door_raid {
+  width: 90%;
+  margin: auto;
+  min-height: calc(100vh - 10.4375em);
+}
+.door_raid_group {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em 1em;
+  border: 2px solid black;
+  cursor: pointer;
+}
+.door_raid_btn,
+.door_raid_group_delete_btn {
+  padding: 1em 3em;
+  font-size: 1.12em;
+  font-weight: 600;
+  background: #03dac5;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+.door_raid_btn_box {
+  text-align: end;
+  padding: 3em 0;
+}
+.door_raid_group_delete_btn {
+  background-color: rgb(255, 110, 110);
+}
+.door_raid_header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5em 0 3em;
+}
+.door_raid_group_btn {
+  width: 10em;
+  padding: 0.7em 0;
+}
+.door_raid_group div:first-child {
+  margin-right: 6em;
+}
+.door_raid_groups_menu {
+  border: none;
+  color: rgb(185, 185, 185);
+  font-weight: 600;
+  letter-spacing: .03em;
+  cursor: inherit;
+}
+.door_raid_groups_menu div:first-child{
+  margin-left: 1.3em;
+  margin-right: 5.4em;
+}
+.door_raid_groups_menu div:nth-child(3){
+  position: relative;
+  left: -1.8em;
+}
+.door_raid_groups_menu div:nth-child(4){
+  position: relative;
+  left: -2.6em;
+}
+.door_raid_groups_menu div:nth-child(5){
+  position: relative;
+  left: -1.8em;
+}

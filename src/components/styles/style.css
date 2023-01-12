@@ -1,0 +1,53 @@
+.signin {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(49, 49, 49);
+  border-radius: 1em;
+  padding: 2em 3em 5em;
+  border: 0.2em solid rgb(34, 34, 34);
+  text-align: center;
+}
+.signin h1 {
+  font-size: 2.6em;
+}
+.signin_input_box {
+  margin: 2.6em;
+}
+.signin_input_box input {
+  padding: 0.7em 1em;
+  width: 17em;
+  font-size: 1.2em;
+  border-radius: 1.4em;
+  outline: none;
+  border: none;
+}
+.signin_btn{
+  cursor: pointer;
+  border: none;
+  padding: .6em 2em;
+  background: linear-gradient(white, rgb(83, 73, 73));
+  border-radius: .3em;
+  font-weight: 600;
+  font-size: 1.01em;
+  letter-spacing: .03em;
+}
+.signin_signup{
+  margin-top: 1em;
+  color: rgb(185, 185, 185);
+}
+.signin_signup b{
+  cursor: pointer;
+  color: rgb(41, 113, 194);
+  text-decoration: underline;
+}
+.signin_signup b:hover{
+  color: rgb(58, 128, 207);
+}
+#signup_password_input{
+  border: 2px solid rgba(255, 0, 0, 0);
+}
+.border_red{
+  border: 2px solid red !important;
+}

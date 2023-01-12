@@ -1,0 +1,39 @@
+.home {
+  min-height: calc(100vh - 10.4375em);
+}
+.home_menu {
+  text-align: center;
+  padding: 2em 0;
+}
+.home_menu div {
+  margin-top: 1.5em;
+}
+.home_menu_door {
+  background: url("../../images/door-lock-raid.svg");
+}
+.home_menu_calculator {
+  background: url("../../images/raid-calculator.svg");
+}
+.home_menu_farming {
+  background: url("../../images/farming.svg");
+}
+.home_menu_items {
+  display: inline-block;
+  background-size: cover;
+  border-radius: 2em;
+  padding: 1.6em 12em;
+  cursor: pointer;
+  transition: box-shadow 140ms linear;
+}
+.home_menu_items:hover {
+  box-shadow: 0 0 1.3em rgba(255, 255, 255, 0.418);
+}
+.home_menu_items h2 {
+  padding: 0.7em 2em;
+  letter-spacing: 0.06em;
+  word-spacing: 0.15em;
+  background: #d9d9d97e;
+  color: black;
+  border-radius: 2em;
+  width: 10em;
+}
